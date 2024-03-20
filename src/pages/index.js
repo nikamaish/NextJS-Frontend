@@ -10,10 +10,12 @@ export default function Home() {
 
   return (
     <main
-      className={"bg-white h-screen w-100 flex flex-col"}>
+      className={"bg-white  flex flex-col"}>
       {/* <Sidebar />  */}
-      <Forum /> 
-      {/* <MarketStories /> */}
+      <div className="flex">
+        <Forum />
+        <MarketStories />
+      </div>
     </main>
   );
 }

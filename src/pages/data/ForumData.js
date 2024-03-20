@@ -40,32 +40,32 @@ const forumData = [
         shares: 10,
         },
 
-        // {
-        //     id: 4,
-        //     user: {
-        //         name: 'Alice Johnson',
-        //         avatar: '/assets/userProfile.png',
-        //     },
-        //     postedAt: '10 minutes ago',
-        //     content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        //     likes: 30,
-        //     views: 45,
-        //     comment:25,
-        //     shares: 10,
-        //     },
-        //     {
-        //         id: 5,
-        //         user: {
-        //             name: 'Alice Johnson',
-        //             avatar: '/assets/userProfile.png',
-        //         },
-        //         postedAt: '10 minutes ago',
-        //         content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        //         likes: 30,
-        //         views: 45,
-        //         comment:25,
-        //         shares: 10,
-        //         },
+        {
+            id: 4,
+            user: {
+                name: 'Alice Johnson',
+                avatar: '/assets/userProfile.png',
+            },
+            postedAt: '10 minutes ago',
+            content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            likes: 30,
+            views: 45,
+            comment:25,
+            shares: 10,
+            },
+            {
+                id: 5,
+                user: {
+                    name: 'Alice Johnson',
+                    avatar: '/assets/userProfile.png',
+                },
+                postedAt: '10 minutes ago',
+                content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                likes: 30,
+                views: 45,
+                comment:25,
+                shares: 10,
+                },
         
     
 
