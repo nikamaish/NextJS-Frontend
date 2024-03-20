@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main
       className={"bg-white h-screen w-100 flex flex-col"}>
-      <Sidebar /> 
-      {/* <Forum /> */}
+      {/* <Sidebar />  */}
+      <Forum />
     </main>
   );
 }

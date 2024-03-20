@@ -8,11 +8,7 @@ import { useState } from 'react';
 const Sidebar = () => {
 
 
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
   
   return (
     <aside className="bg-darkBlue w-64 h-screen">
