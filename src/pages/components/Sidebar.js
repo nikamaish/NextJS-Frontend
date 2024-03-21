@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import {
   FaUser,
@@ -12,7 +12,12 @@ import {
 } from "react-icons/fa";
 
 const Sidebar = () => {
-  const [sidebarVisible, setSidebarVisible] = useState(true);
+  const [sidebarVisible, setSidebarVisible] = useState(false);
+
+  useEffect(() => {
+    setSidebarVisible(window.innerWidth >= 600);
+  }, []);
+
 
   const toggleSidebar = () => {
     setSidebarVisible(!sidebarVisible);
@@ -20,7 +25,7 @@ const Sidebar = () => {
 
   return (
     <div className="flex ">
-      {sidebarVisible && (
+      {sidebarVisible  && (
         <aside className="bg-darkBlue w-64">
           <div className="p-4">
             <div className="flex items-center justify-between">
@@ -58,9 +63,9 @@ const Sidebar = () => {
           </div>
         </aside>
       )}
-      <div className="flex justify-center items-center h-screen cursor-pointer">
+      <div className="flex justify-center items-center h-screen ">
         <div
-          className="bg-darkBlue w-6 h-20 flex justify-center items-center"
+          className="bg-darkBlue w-6 h-20 flex justify-center items-center cursor-pointer"
           onClick={toggleSidebar}
         >
           <FaAngleRight className="text-white " />

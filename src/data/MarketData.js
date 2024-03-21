@@ -7,13 +7,13 @@ const marketStoriesData = [
   },
   {
     id: 2,
-    image: "/assets/stocks.jpg",
+    image: "/assets/Stocks.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
-    image: "/assets/stocks.jpg",
+    image: "/assets/Stocks.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
