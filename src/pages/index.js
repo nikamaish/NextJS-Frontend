@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+const Index = () =>  {
   const [showNavbar, setShowNavbar] = useState(true);
   const [showSidebar, setShowSidebar] = useState(false); // State for sidebar visibility
   const [activeOption, setActiveOption] = useState('forum'); // State for the active option
@@ -50,3 +50,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Index

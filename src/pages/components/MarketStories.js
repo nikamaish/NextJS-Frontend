@@ -5,9 +5,9 @@ import marketStoriesData from "../../data/MarketData";
 
 const MarketStories = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white mr-5">
        <div className="text-center mt-4 ">
-        <span className="bg-gray-200 text-red-500 font-semibold cursor-pointer">
+        <span className="bg-gray-200 text-red-500 p-2 font-semibold cursor-pointer">
           MARKET STORIES
         </span>
       </div>

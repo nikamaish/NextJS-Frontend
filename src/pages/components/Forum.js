@@ -1,15 +1,14 @@
-// import React from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { FaUser, FaHeart, FaEye, FaComment, FaShare } from "react-icons/fa";
+import { FaUser, FaHeart, FaEye, FaComment, FaShare } from "react-icons/fa"; // Import the required icons
 import forumData from "../../data/ForumData";
 
 const Forum = () => {
   return (
     <div className="bg-white-100 p-4 max-w-xl mx-auto h-auto">
       <div className="text-center">
-        <span className="bg-gray-200 text-red-500 font-semibold mb-4 cursor-pointer">
-          DISSCUSSION FORUM
+        <span className="bg-gray-200 text-red-500 font-semibold mb-4 p-2 cursor-pointer">
+          DISCUSSION FORUM
         </span>
       </div>
 
@@ -25,9 +24,9 @@ const Forum = () => {
                 {post.user.sector}
               </span>
             </div>
-            <span className="text-lighttBlue">{post.postedAt}</span>
+            <span className="text-lightBlue">{post.postedAt}</span> {/* Fix typo here */}
           </div>
-          <p className="text-black ml-12 ">{post.content}</p>
+          <p className="text-black ml-12">{post.content}</p>
           <div className="flex justify-around mt-2">
             <div className="flex items-center ml-6">
               <FaHeart className="mr-2" />
