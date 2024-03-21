@@ -32,8 +32,11 @@ const Navbar = ({ onSelect }) => {
     <Forum />
   </div>
 ) : (
-  <MarketStories />
+  <div className="flex justify-center">
+    <MarketStories />
+  </div>
 )}
+
 
     </div>
   );
