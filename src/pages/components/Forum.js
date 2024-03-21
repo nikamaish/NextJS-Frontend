@@ -1,8 +1,8 @@
-import React from "react";
+// import React from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import { FaUser, FaHeart, FaEye, FaComment, FaShare } from "react-icons/fa";
-import forumData from "../data/ForumData";
+import forumData from "../../data/ForumData";
 
 const Forum = () => {
   return (
@@ -19,7 +19,7 @@ const Forum = () => {
               </span>
               <span className="text-gray-500">{post.user.name}</span>
             </div>
-            <span className="text-lightBlue">{post.postedAt}</span>
+            <span className="text-lighttBlue">{post.postedAt}</span>
           </div>
           <p className="text-black ml-12 ">{post.content}</p>
           <div className="flex justify-around mt-2">

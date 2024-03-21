@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import marketStoriesData from "../data/MarketData";
+import marketStoriesData from "../../data/MarketData";
 
 const MarketStories = () => {
   return (
