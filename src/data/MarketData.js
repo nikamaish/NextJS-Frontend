@@ -2,18 +2,21 @@ const marketStoriesData = [
   {
     id: 1,
     image: "/assets/Stocks.jpg",
+    heading:'Stocks',
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 2,
     image: "/assets/Stocks.jpg",
+    heading:'NFT',
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
     image: "/assets/Stocks.jpg",
+    heading:'Crypto',
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },

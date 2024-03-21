@@ -4,9 +4,10 @@ const forumData = [
       user: {
         name: 'John Doe',
         avatar: '/assets/userProfile.png',
+        sector: 'sector 2',
       },
       postedAt: '2 minutes ago',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       likes: 10,
       views: 25,
       comment:5,
@@ -17,6 +18,7 @@ const forumData = [
       user: {
         name: 'Jane Smith',
         avatar: '/assets/userProfile.png',
+        sector: 'sector 3'
       },
       postedAt: '5 minutes ago',
       content: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ',
@@ -31,6 +33,7 @@ const forumData = [
         user: {
             name: 'Alice Johnson',
             avatar: '/assets/userProfile.png',
+            sector: 'sector 4'
         },
         postedAt: '10 minutes ago',
         content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.',
@@ -45,6 +48,7 @@ const forumData = [
             user: {
                 name: 'Alice Johnson',
                 avatar: '/assets/userProfile.png',
+                sector: 'sector 5'
             },
             postedAt: '10 minutes ago',
             content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -58,6 +62,7 @@ const forumData = [
                 user: {
                     name: 'Alice Johnson',
                     avatar: '/assets/userProfile.png',
+                    sector: 'sector 6'
                 },
                 postedAt: '10 minutes ago',
                 content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',

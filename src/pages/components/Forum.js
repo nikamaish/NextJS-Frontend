@@ -6,7 +6,7 @@ import forumData from "../../data/ForumData";
 
 const Forum = () => {
   return (
-    <div className="bg-white-100 p-4 max-w-lg mx-auto h-auto">
+    <div className="bg-white-100 p-4 max-w-xl mx-auto h-auto relative left-40 ">
       <h2 className="text-red-500 font-semibold mb-4 text-center ">
         DISSCUSSION FORUM
       </h2>
@@ -18,6 +18,7 @@ const Forum = () => {
                 <Image src={"/assets/userProfile.png"} width={50} height={50} />
               </span>
               <span className="text-gray-500">{post.user.name}</span>
+              <span className="bg-blue rounded text-xs text-white ml-2 px-2 py-1">{post.user.sector}</span>
             </div>
             <span className="text-lighttBlue">{post.postedAt}</span>
           </div>

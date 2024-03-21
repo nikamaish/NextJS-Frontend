@@ -27,7 +27,14 @@ const Navbar = ({ onSelect }) => {
         </button>
       </nav>
       </div>
-      {activeOption === 'forum' ? <Forum /> : <MarketStories />}
+      {activeOption === 'forum' ? (
+  <div className="relative right-40">
+    <Forum />
+  </div>
+) : (
+  <MarketStories />
+)}
+
     </div>
   );
 };

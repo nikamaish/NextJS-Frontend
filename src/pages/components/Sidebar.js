@@ -19,16 +19,18 @@ const Sidebar = () => {
     setSidebarVisible(window.innerWidth >= 700);
   }, []);
 
-
   const toggleSidebar = () => {
     setSidebarVisible(!sidebarVisible);
   };
 
   return (
-    <div className="flex ">
-      {sidebarVisible  && (
-<aside className={`bg-darkBlue w-64 transition-all duration-300 ${sidebarVisible ? 'translate-x-0' : '-translate-x-full'}`}>
-
+    <div className="flex fixed top-0 left-0 h-full">
+      {sidebarVisible && (
+        <aside
+          className={`bg-darkBlue w-64 h-full transition-all duration-300 ${
+            sidebarVisible ? "translate-x-0" : "-translate-x-full"
+          }`}
+        >
           <div className="p-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center">
@@ -41,7 +43,7 @@ const Sidebar = () => {
           <hr />
           <div>
             <ul>
-              <li className=" flex items-center bg-blue text-white mt-5 px-2 py-1 cursor-pointer relative">
+              <li className="flex items-center bg-blue text-white mt-5 px-2 py-1 cursor-pointer relative">
                 <FaComment className="mr-2" />
                 <span>Discussion Forum</span>
                 <FaAngleDown className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white mr-3" />
@@ -70,7 +72,11 @@ const Sidebar = () => {
           className="bg-darkBlue w-6 h-20 flex justify-center items-center cursor-pointer transition-all duration-300 ${sidebarVisible ? 'translate-x-0' : '-translate-x-64'}"
           onClick={toggleSidebar}
         >
-          {sidebarVisible ? <FaAngleLeft className="text-white " /> : <FaAngleRight className="text-white " />}
+          {sidebarVisible ? (
+            <FaAngleLeft className="text-white " />
+          ) : (
+            <FaAngleRight className="text-white " />
+          )}
         </div>
       </div>
     </div>

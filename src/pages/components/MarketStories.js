@@ -6,7 +6,7 @@ import marketStoriesData from "../../data/MarketData";
 const MarketStories = () => {
   return (
     <div className="bg-white">
-      <h2 className="text-red-500 font-semibold  text-center pt-3 ">
+      <h2 className="text-red-500 font-semibold  text-center pt-4 ">
         MARKET STORIES
       </h2>
       <div className="container mx-auto py-5 px-4">
@@ -22,7 +22,7 @@ const MarketStories = () => {
                 height={150}
                 alt="Story Image"
               />
-
+              <p className="text-black text-center py-2 font-medium">{story.heading}</p>
               <p className="text-gray-800">{story.description}</p>
             </div>
           ))}
