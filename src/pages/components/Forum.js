@@ -5,6 +5,7 @@ import forumData from "../data/ForumData";
 
 const Forum = () => {
   return (
+    
     <div className="bg-white-100 p-4 max-w-md mx-auto h-auto">
       <h2 className="text-red-500 font-semibold mb-4 text-center ">DISSCUSSION FORUM</h2>
       {forumData.map((post, index) => (

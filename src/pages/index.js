@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <main
       className={"bg-white  flex flex-col"}>
-      <Sidebar /> 
       <div className="flex">
+      <Sidebar /> 
         <Forum />
         <MarketStories />
       </div>
