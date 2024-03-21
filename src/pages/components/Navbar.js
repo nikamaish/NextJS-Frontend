@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
+import Forum from './Forum';
 
 const Navbar = ({ onSelect }) => {
   const [activeOption, setActiveOption] = useState('forum');
 
   const handleOptionClick = (option) => {
     setActiveOption(option);
-    // onSelect(option);
   };
 
   return (
+    <div>
     <div className='bg-darkBlue'>
       <nav className="grid grid-cols-2 gap-6 justify-center items-center text-white">
         <button
@@ -24,6 +25,8 @@ const Navbar = ({ onSelect }) => {
           Stories
         </button>
       </nav>
+      </div>
+      {activeOption === 'forum' && <Forum />} 
     </div>
   );
 };

@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar.js";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [showNavbar, setShowNavbar] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(true);
   const [showForumAndMarket, setShowForumAndMarket] = useState(true);
 
   useEffect(() => {
