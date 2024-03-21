@@ -16,7 +16,7 @@ const forumData = [
     {
       id: 2,
       user: {
-        name: 'Jane Smith',
+        name: 'Jane Bow',
         avatar: '/assets/userProfile.png',
         sector: 'sector 3'
       },
@@ -31,7 +31,7 @@ const forumData = [
     {
         id: 3,
         user: {
-            name: 'Alice Johnson',
+            name: 'Alice Joe',
             avatar: '/assets/userProfile.png',
             sector: 'sector 4'
         },
@@ -46,7 +46,7 @@ const forumData = [
         {
             id: 4,
             user: {
-                name: 'Alice Johnson',
+                name: 'Jury Gon',
                 avatar: '/assets/userProfile.png',
                 sector: 'sector 5'
             },
@@ -60,7 +60,7 @@ const forumData = [
             {
                 id: 5,
                 user: {
-                    name: 'Alice Johnson',
+                    name: 'Joey Doe ',
                     avatar: '/assets/userProfile.png',
                     sector: 'sector 6'
                 },

@@ -8,7 +8,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          {/* Add other meta tags, title, stylesheets, etc. here */}
+          
         </Head>
         <body>
           <Main />

@@ -37,7 +37,7 @@ const Sidebar = () => {
                 <FaUser className="text-white mr-2" />
                 <span className="text-white">Hello, User</span>
               </div>
-              <FaBell className="text-white cursor-pointer" />
+              <FaBell className="text-white  cursor-pointer" />
             </div>
           </div>
           <hr />
