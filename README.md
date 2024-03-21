@@ -1,8 +1,27 @@
+## Overview
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+- This is frontend of website which is build using Next.js and Tailwind.css
+- Next.js empowers developers to build high-performance web applications by offering features like Static Site Generation (SSG), Server-Side Rendering (SSR). With built-in image optimization, automatic code splitting, and support for TypeScript, Next.js ensures fast load times, reduced bundle sizes, and improved developer productivity. 
 
-First, run the development server:
+## Getting Started
+To get a local copy up and running, follow these steps.
+
+## Prerequisites
+Node.js and npm installed on your machine
+
+## Installation
+- Clone the repository:
+
+```bash
+https://github.com/nikamaish/NextJS-Frontend.git
+```
+- Install dependencies:
+```bash
+npm install
+```
+ 
+run the development server:
 
 ```bash
 npm run dev
@@ -33,8 +52,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployment on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Deployment Link](https://next-js-frontend-lilac.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
