@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Forum from './Forum';
+import MarketStories from './MarketStories';
 
 const Navbar = ({ onSelect }) => {
   const [activeOption, setActiveOption] = useState('forum');
@@ -26,7 +27,7 @@ const Navbar = ({ onSelect }) => {
         </button>
       </nav>
       </div>
-      {activeOption === 'forum' && <Forum />} 
+      {activeOption === 'forum' ? <Forum /> : <MarketStories />}
     </div>
   );
 };
