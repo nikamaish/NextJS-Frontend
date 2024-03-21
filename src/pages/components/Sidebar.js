@@ -1,3 +1,5 @@
+import Image from "next/image";
+import { Inter } from "next/font/google";
 import React, { useState } from "react";
 import {
   FaUser,

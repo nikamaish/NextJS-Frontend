@@ -1,18 +1,28 @@
-import React from 'react';
-import marketStoriesData from '../data/MarketData'
+import React from "react";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import marketStoriesData from "../data/MarketData";
 
 const MarketStories = () => {
   return (
     <div className="bg-white">
-      <h2 className="text-red-500 font-semibold  text-center pt-5 ">MARKET STORIES</h2>
-      <div className="container mx-auto py-5 px-4" >
-        <div className="space-y-4 "> 
-         
+      <h2 className="text-red-500 font-semibold  text-center pt-3 ">
+        MARKET STORIES
+      </h2>
+      <div className="container mx-auto py-5 px-4">
+        <div className="space-y-4 ">
           {marketStoriesData.map((story) => (
-            <div key={story.id} className="max-w-xs bg-white rounded-lg shadow-md p-4 border border-black">
-             
-              <img src={story.image} alt="Story" className="w-full h-40 object-cover mb-4" />
-             
+            <div
+              key={story.id}
+              className="max-w-xs bg-white rounded-lg shadow-md p-4 border border-black"
+            >
+              <Image
+                src={story.image}
+                width={300}
+                height={150}
+                alt="Story Image"
+              />
+
               <p className="text-gray-800">{story.description}</p>
             </div>
           ))}
