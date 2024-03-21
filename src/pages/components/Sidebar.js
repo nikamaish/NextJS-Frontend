@@ -24,7 +24,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="flex fixed top-0 left-0 h-full">
+    <div className="flex fixed top-0 left-0 h-full ">
       {sidebarVisible && (
         <aside
           className={`bg-darkBlue w-64 h-full transition-all duration-300 ${

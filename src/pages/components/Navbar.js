@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
-import Forum from './Forum';
-import MarketStories from './MarketStories';
 
 const Navbar = ({ onSelect }) => {
   const [activeOption, setActiveOption] = useState('forum');
 
   const handleOptionClick = (option) => {
     setActiveOption(option);
+    onSelect(option); // Pass the selected option to the parent component if needed
   };
 
   return (
-    <div>
     <div className='bg-darkBlue'>
       <nav className="grid grid-cols-2 gap-6 justify-center items-center text-white">
         <button
@@ -26,18 +24,6 @@ const Navbar = ({ onSelect }) => {
           Stories
         </button>
       </nav>
-      </div>
-      {activeOption === 'forum' ? (
-  <div className="relative right-40">
-    <Forum />
-  </div>
-) : (
-  <div className="flex justify-center">
-    <MarketStories />
-  </div>
-)}
-
-
     </div>
   );
 };

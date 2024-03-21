@@ -10,12 +10,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [showNavbar, setShowNavbar] = useState(true);
-  const [showForumAndMarket, setShowForumAndMarket] = useState(true);
+  const [showSidebar, setShowSidebar] = useState(false); // State for sidebar visibility
+  const [activeOption, setActiveOption] = useState('forum'); // State for the active option
 
   useEffect(() => {
     const handleResize = () => {
       setShowNavbar(window.innerWidth < 700);
-      setShowForumAndMarket(window.innerWidth >= 700);
+      setShowSidebar(window.innerWidth >= 700);
     };
 
     window.addEventListener("resize", handleResize);
@@ -24,17 +25,27 @@ export default function Home() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const toggleSidebar = () => {
+    setShowSidebar(!showSidebar); // Toggle the sidebar visibility
+  };
+
+  const handleOptionSelect = (option) => {
+    setActiveOption(option); // Update the active option
+  };
+
   return (
     <main className={"bg-white flex flex-col"}>
-       {showNavbar && <Navbar />}
+      {showNavbar && <Navbar onSelect={handleOptionSelect} />}
       <div className="flex">
-        <Sidebar /> 
-        {showForumAndMarket && (
-          <>
-            <Forum />
-            <MarketStories />
-          </>
-        )}
+        <Sidebar toggleSidebar={toggleSidebar} />
+        <div className={showSidebar ? "ml-64 flex-grow flex" : "flex-grow"}>
+          {activeOption === 'forum' ? (
+            <Forum className={showSidebar ? "flex-grow" : ""} />
+          ) : (
+            <MarketStories className={showSidebar ? "flex-grow" : ""} />
+          )}
+          {showSidebar && activeOption === 'forum' && <MarketStories className="flex-grow" />}
+        </div>
       </div>
     </main>
   );
