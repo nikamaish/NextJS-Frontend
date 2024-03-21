@@ -9,6 +9,7 @@ import {
   FaAngleDown,
   FaComment,
   FaAngleRight,
+  FaAngleLeft, // Added import for left arrow icon
 } from "react-icons/fa";
 
 const Sidebar = () => {
@@ -26,7 +27,8 @@ const Sidebar = () => {
   return (
     <div className="flex ">
       {sidebarVisible  && (
-        <aside className="bg-darkBlue w-64">
+<aside className={`bg-darkBlue w-64 transition-all duration-300 ${sidebarVisible ? 'translate-x-0' : '-translate-x-full'}`}>
+
           <div className="p-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center">
@@ -65,10 +67,10 @@ const Sidebar = () => {
       )}
       <div className="flex justify-center items-center h-screen ">
         <div
-          className="bg-darkBlue w-6 h-20 flex justify-center items-center cursor-pointer"
+          className="bg-darkBlue w-6 h-20 flex justify-center items-center cursor-pointer transition-all duration-300 ${sidebarVisible ? 'translate-x-0' : '-translate-x-64'}"
           onClick={toggleSidebar}
         >
-          <FaAngleRight className="text-white " />
+          {sidebarVisible ? <FaAngleLeft className="text-white " /> : <FaAngleRight className="text-white " />}
         </div>
       </div>
     </div>
