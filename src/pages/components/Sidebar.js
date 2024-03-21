@@ -53,13 +53,13 @@ const Sidebar = () => {
                 <FaFileInvoiceDollar className="text-white mr-2" />
                 Market Stories
               </li>
-              <div className="ml-8">
-                <li className="text-white my-2 cursor-pointer">Sentiment</li>
-                <li className="text-white my-2 cursor-pointer">Market</li>
-                <li className="text-white my-2 cursor-pointer">Sector</li>
-                <li className="text-white my-2 cursor-pointer">Watchlist</li>
-                <li className="text-white my-2 cursor-pointer">Events</li>
-                <li className="text-white my-2 cursor-pointer">
+              <div className=" ml-8 text-white  cursor-pointer">
+                <li className="mb-2">Sentiment</li>
+                <li className="mb-2">Market</li>
+                <li className="mb-2">Sector</li>
+                <li className="mb-2">Watchlist</li>
+                <li className="mb-2">Events</li>
+                <li>
                   News/Interview
                 </li>
               </div>

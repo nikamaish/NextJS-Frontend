@@ -40,7 +40,7 @@ const Index = () =>  {
         <Sidebar toggleSidebar={toggleSidebar} />
         <div className={showSidebar ? "ml-64 flex-grow flex" : "flex-grow"}>
           {activeOption === 'forum' ? (
-            <Forum className={showSidebar ? "flex-grow" : ""} />
+            <Forum className={showSidebar ? "flex-grow" : "" } />
           ) : (
             <MarketStories className={showSidebar ? "flex-grow" : ""} />
           )}

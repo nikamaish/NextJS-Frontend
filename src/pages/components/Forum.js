@@ -5,15 +5,15 @@ import forumData from "../../data/ForumData";
 
 const Forum = () => {
   return (
-    <div className="bg-white-100 p-4 max-w-xl mx-auto h-auto">
+    <div className="bg-white-100 p-4 max-w-xl mx-auto h-auto ">
       <div className="text-center">
-        <span className="bg-gray-200 text-red-500 font-semibold mb-4 p-2 cursor-pointer">
+        <span className="bg-gray-200 text-red-500 font-semibold  p-2 cursor-pointer">
           DISCUSSION FORUM
         </span>
       </div>
 
       {forumData.map((post, index) => (
-        <div key={index} className="bg-white rounded-lg shadow-xl p-4 mb-10">
+        <div key={index} className="bg-white rounded-lg  shadow-xl p-4 mb-10">
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center">
               <span>
