@@ -6,9 +6,12 @@ import marketStoriesData from "../../data/MarketData";
 const MarketStories = () => {
   return (
     <div className="bg-white">
-      <h2 className="text-red-500 font-semibold  text-center pt-4 ">
-        MARKET STORIES
-      </h2>
+       <div className="text-center mt-4 ">
+        <span className="bg-gray-200 text-red-500 font-semibold cursor-pointer">
+          MARKET STORIES
+        </span>
+      </div>
+
       <div className="container mx-auto py-5 px-4">
         <div className="space-y-4 ">
           {marketStoriesData.map((story) => (
