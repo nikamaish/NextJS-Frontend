@@ -28,7 +28,7 @@ const Forum = () => {
           </div>
           <p className="text-black ml-12">{post.content}</p>
           <div className="flex justify-around mt-2">
-            <div className="flex items-center ml-6">
+            <div className="">
               <FaHeart className="mr-2" />
               <span>{post.likes}</span>
             </div>
