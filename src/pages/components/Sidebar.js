@@ -15,7 +15,7 @@ const Sidebar = () => {
   const [sidebarVisible, setSidebarVisible] = useState(false);
 
   useEffect(() => {
-    setSidebarVisible(window.innerWidth >= 600);
+    setSidebarVisible(window.innerWidth >= 700);
   }, []);
 
 
