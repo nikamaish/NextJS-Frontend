@@ -20,7 +20,7 @@ const forumData = [
         avatar: '/assets/userProfile.png',
         sector: 'sector 3'
       },
-      postedAt: '5 minutes ago',
+      postedAt: '3 minutes ago',
       content: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ',
       likes: 20,
       views: 35,
@@ -35,7 +35,7 @@ const forumData = [
             avatar: '/assets/userProfile.png',
             sector: 'sector 4'
         },
-        postedAt: '10 minutes ago',
+        postedAt: '4 minutes ago',
         content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.',
         likes: 30,
         views: 45,
@@ -50,7 +50,7 @@ const forumData = [
                 avatar: '/assets/userProfile.png',
                 sector: 'sector 5'
             },
-            postedAt: '10 minutes ago',
+            postedAt: '5 minutes ago',
             content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
             likes: 30,
             views: 45,
@@ -64,7 +64,7 @@ const forumData = [
                     avatar: '/assets/userProfile.png',
                     sector: 'sector 6'
                 },
-                postedAt: '10 minutes ago',
+                postedAt: '6 minutes ago',
                 content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                 likes: 30,
                 views: 45,
