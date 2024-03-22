@@ -3,9 +3,8 @@
 ## Overview
 
 - This is the frontend of a website developed using Next.js and styled with Tailwind CSS. The design is fully responsive, ensuring optimal viewing and interaction experiences across various devices and screen sizes.
-- Next.js empowers developers to build high-performance web applications by offering features like Static Site Generation (SSG), Server-Side Rendering (SSR). With built-in image optimization, automatic code splitting, and support for TypeScript, Next.js ensures fast load times, reduced bundle sizes, and improved developer productivity. 
+- Next.js empowers developers to build high-performance web applications by offering features like Static Site Generation (SSG), Server-Side Rendering (SSR). With built-in image optimization, automatic code splitting, Next.js ensures fast load times, reduced bundle sizes, and improved developer productivity. 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 To get a local copy up and running, follow these steps.
@@ -19,13 +18,18 @@ Node.js and npm installed on your machine
 ```bash
 https://github.com/nikamaish/NextJS-Frontend.git
 ```
+
 - Install dependencies:
 ```bash
 npm install
 ```
- 
-run the development server:
 
+- To install React Icons using npm
+``` bash
+npm install react-icons
+```
+
+run the development server:
 ```bash
 npm run dev
 # or
