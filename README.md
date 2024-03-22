@@ -1,3 +1,5 @@
+# Go India Stocks - NextJS Frontend 
+
 ## Overview
 
 - This is the frontend of a website developed using Next.js and styled with Tailwind CSS. The design is fully responsive, ensuring optimal viewing and interaction experiences across various devices and screen sizes.
