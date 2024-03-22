@@ -13,10 +13,10 @@ const Forum = () => {
       </div>
 
       {forumData.map((post, index) => (
-        <div key={index} className="bg-white rounded-lg  shadow-xl p-4 mb-10">
+        <div key={index} className="bg-white rounded-lg  shadow-xl py-4 px-2 mb-10">
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center">
-              <span>
+              <span className="">
                 <Image src={"/assets/userProfile.png"} width={50} height={50} />
               </span>
               <span className="text-gray-500">{post.user.name}</span>

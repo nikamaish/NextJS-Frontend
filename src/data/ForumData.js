@@ -21,7 +21,7 @@ const forumData = [
         sector: 'sector 3'
       },
       postedAt: '3 minutes ago',
-      content: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ',
+      content: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Ut enim ad minim veniam, quis nostrud exercitation ',
       likes: 20,
       views: 35,
       comment:15,
@@ -36,7 +36,7 @@ const forumData = [
             sector: 'sector 4'
         },
         postedAt: '4 minutes ago',
-        content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.',
+        content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Ut enim ad minim veniam, quis nostrud exercitation',
         likes: 30,
         views: 45,
         comment:25,
@@ -51,7 +51,7 @@ const forumData = [
                 sector: 'sector 5'
             },
             postedAt: '5 minutes ago',
-            content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Ut enim ad minim veniam, quis nostrud exercitation',
             likes: 30,
             views: 45,
             comment:25,
@@ -65,7 +65,7 @@ const forumData = [
                     sector: 'sector 6'
                 },
                 postedAt: '6 minutes ago',
-                content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Ut enim ad minim veniam, quis nostrud exercitation',
                 likes: 30,
                 views: 45,
                 comment:25,
