@@ -27,7 +27,7 @@ const Forum = () => {
             <span className="text-lightBlue">{post.postedAt}</span> {/* Fix typo here */}
           </div>
           <p className="text-black ml-12">{post.content}</p>
-          <div className="flex justify-around mt-2">
+          <div className="flex justify-around mt-2 text-black">
             <div className="flex items-center ml-2">
               <FaHeart className="mr-2" />
               <span>{post.likes}</span>
